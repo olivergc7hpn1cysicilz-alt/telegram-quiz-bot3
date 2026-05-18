@@ -1,0 +1,9 @@
+{
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "startCommand": "python quiz_bot.py",
+    "restartPolicyType": "ON_FAILURE"
+  }
+}
